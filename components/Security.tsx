@@ -2,11 +2,7 @@ import Link from "next/link"
 import { ChevronDown } from 'lucide-react'
 import Image from "next/image"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover"
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { Button } from "@/components/ui/button"
 import { Space_Mono, IBM_Plex_Sans } from "next/font/google"
 
@@ -102,6 +98,8 @@ export const Security = () => {
                         transition-all duration-200
                         relative
                         group
+                        rounded-md
+                        overflow-hidden
                       "
                     >
                       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-0 bg-[#1A1A40] group-hover:h-1/2 transition-all duration-200" />
@@ -171,6 +169,8 @@ export const Security = () => {
                         transition-all duration-200
                         relative
                         group
+                        rounded-md
+                        overflow-hidden
                       "
                     >
                       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-0 bg-[#1A1A40] group-hover:h-1/2 transition-all duration-200" />
@@ -242,6 +242,8 @@ export const Security = () => {
                         transition-all duration-200
                         relative
                         group
+                        rounded-md
+                        overflow-hidden
                       "
                     >
                       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-0 bg-[#1A1A40] group-hover:h-1/2 transition-all duration-200" />
@@ -310,6 +312,8 @@ export const Security = () => {
                         transition-all duration-200
                         relative
                         group
+                        rounded-md
+                        overflow-hidden
                       "
                     >
                       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-0 bg-[#1A1A40] group-hover:h-1/2 transition-all duration-200" />
