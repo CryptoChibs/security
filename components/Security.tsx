@@ -369,13 +369,23 @@ export const Security = () => {
               { 
                 title: "Better Practices",
                 content: (
-                  <ol className={`list-decimal pl-5 space-y-3 text-sm md:text-base ${spaceMono.className}`}>
-                    <li><span className="font-bold">Keep your seed phrase secure:</span> Store it in a safe place and never save it online.</li>
-                    <li><span className="font-bold">DYOR (Do Your Own Research):</span> Always investigate thoroughly before engaging with any project or token.</li>
-                    <li><span className="font-bold">Use trusted tools and platforms:</span> Stick to reputable wallets, exchanges, and applications to reduce risks.</li>
-                    <li><span className="font-bold">Beware of scams:</span> Double-check links, accounts, and communications to ensure legitimacy before taking any action.</li>
-                    <li><span className="font-bold">Stay alert:</span> Avoid handling crypto when tired, sick, or in a compromised mental state.</li>
-                  </ol>
+                  <ul className={`list-none pl-5 space-y-4 text-sm md:text-base ${spaceMono.className}`}>
+                    <li>
+                      <span className="font-bold text-base md:text-lg">1.</span> <span className="font-bold">Keep your seed phrase secure:</span> Store it in a safe place and never save it online.
+                    </li>
+                    <li>
+                      <span className="font-bold text-base md:text-lg">2.</span> <span className="font-bold">DYOR (Do Your Own Research):</span> Always investigate thoroughly before engaging with any project or token.
+                    </li>
+                    <li>
+                      <span className="font-bold text-base md:text-lg">3.</span> <span className="font-bold">Use trusted tools and platforms:</span> Stick to reputable wallets, exchanges, and applications to reduce risks.
+                    </li>
+                    <li>
+                      <span className="font-bold text-base md:text-lg">4.</span> <span className="font-bold">Beware of scams:</span> Double-check links, accounts, and communications to ensure legitimacy before taking any action.
+                    </li>
+                    <li>
+                      <span className="font-bold text-base md:text-lg">5.</span> <span className="font-bold">Stay alert:</span> Avoid handling crypto when tired, sick, or in a compromised mental state.
+                    </li>
+                  </ul>
                 )
               },
               { 
@@ -383,7 +393,7 @@ export const Security = () => {
                 content: (
                   <div className={`space-y-4 text-sm md:text-base ${spaceMono.className}`}>
                     <p>Scammers often impersonate trusted brands to deceive users. Whenever we become aware of impersonation attempts, we report them to Discord and relevant platforms. For your protection, we recommend immediately revoking any permissions you may have granted to suspicious entities.</p>
-                    <p className="font-bold">If you encounter a fake Collab.Land bot, please report it to Discord using the instructions provided here: <Link href="/how-to-report-scams" className="text-[#1A1A40] underline">How to Report Scams</Link>.</p>
+                    <p className="font-bold">If you encounter a fake Collab.Land bot, please report it to Discord using the instructions provided here: <Link href="https://docs.collab.land/help-docs/FAQ/report-scams" className="text-[#1A1A40] underline">How to Report Scams</Link>.</p>
                   </div>
                 )
               },
