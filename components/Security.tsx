@@ -83,7 +83,7 @@ export const Security = () => {
                   {[
                     { href: "https://collab.land/overview", label: "Overview" },
                     { href: "https://collab.land/team", label: "Team" },
-                    { href: "https://docs.collab.land/dao/token/token_overview", label: "$COLLAB" }
+                    { href: "https://docs.collab.land/help-docs/key-features/token/", label: "$COLLAB" }
                   ].map((item) => (
                     <Link 
                       key={item.href}
@@ -353,7 +353,23 @@ export const Security = () => {
                         <li className={spaceMono.className}>Discord: <span className="font-bold">Collab.Land #6374</span></li>
                         <li className={spaceMono.className}>Telegram: <span className="font-bold">@collablandbot</span></li>
                         <li className={spaceMono.className}>
-                          See images and details here.
+                          See images and details below:
+                          <div className="flex flex-row gap-4 mt-4 justify-center">
+                            <Image
+                              src="/DiscordBotInfo.png"
+                              alt="Discord Bot Information"
+                              width={300}
+                              height={180}
+                              className="rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.2)] border-2 border-[#1A1A40]/10"
+                            />
+                            <Image
+                              src="/TGBotInfo.png"
+                              alt="Telegram Bot Information"
+                              width={300}
+                              height={180}
+                              className="rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.2)] border-2 border-[#1A1A40]/10"
+                            />
+                          </div>
                         </li>
                       </ul>
                     </li>
