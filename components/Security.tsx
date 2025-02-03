@@ -430,7 +430,7 @@ export const Security = () => {
       <main className="flex-1 bg-[#1A1A40]">
         <div className="container mx-auto px-4 py-12 md:py-16 mt-6 md:mt-10">
           <div className="max-w-4xl mx-auto text-center space-y-4">
-            <h1 className={`text-lg md:text-xl lg:text-2xl font-bold text-[#fbbf24] ${ibmPlexSans.className}`}>
+            <h1 className={`text-xl md:text-2xl lg:text-3xl font-bold text-[#fbbf24] ${ibmPlexSans.className}`}>
               Security and Safety
             </h1>
             
