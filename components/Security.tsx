@@ -445,7 +445,7 @@ export const Security = () => {
                 content: (
                   <ul className={`list-none pl-3 md:pl-5 space-y-3 md:space-y-4 text-sm md:text-base ${spaceMono.className}`}>
                     <li>
-                      <span className="font-bold text-base md:text-lg">1.</span> <span className="font-bold">Check social links:</span> Access verified Collab.Land links <Link href="https://linktr.ee/collab_land_" className="text-[#1A1A40] underline">here</Link>.
+                    <span className="font-bold text-base md:text-lg">1.</span> <span className="font-bold">Check social links:</span> Access verified Collab.Land links <Link href="https://linktr.ee/collab_land_" className="text-[#1A1A40] underline hover:opacity-70 transition-opacity duration-200">here</Link>.
                     </li>
                     <li>
                       <span className="font-bold text-base md:text-lg">2.</span> <span className="font-bold">Recognize Collab.Land accounts:</span>
